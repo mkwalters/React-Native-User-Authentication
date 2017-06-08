@@ -103,10 +103,10 @@ const styles = {
 
 const mapStateToProps = (state) => {
   return {
-    // email: state.auth.email,
-    // password: state.auth.password,
-    // error: state.auth.errorFlag,
-    // spinner: state.auth.spinner
+    email: state.auth.email,
+    password: state.auth.password,
+    error: state.auth.errorFlag,
+    spinner: state.auth.spinner
   };
 };
 
